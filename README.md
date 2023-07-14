@@ -33,9 +33,7 @@ After filtering the ASVs, it is essential to perform exploratory and quality con
 
 1. Create a script, such as `scripts/exploratory_analysis.R`, and load the necessary libraries.
 2. Read the filtered ASV files for each sequencing batch from the `data/processed_data/Filtered_ASVs/` directory.
-3. Conduct exploratory analyses such as alpha diversity, beta diversity, and taxonomic composition.
-4. Generate quality control plots and summary statistics to assess the data quality and identify potential issues.
-5. Save the exploratory analysis results and quality control plots in appropriate directories, such as `results/exploratory_analysis/` and `results/quality_control/`.
+
 
 ## 5. Quantitative Microbiome Profiling (QMP) at ASV level
 
