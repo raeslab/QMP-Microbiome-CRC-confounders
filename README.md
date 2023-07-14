@@ -1,4 +1,4 @@
-# Repository Name: Microbiome Analysis Pipeline
+# Microbiome Analysis Pipeline (LCPM)
 
 This repository contains a comprehensive pipeline for analyzing microbiome data from the LCMP cohort. The pipeline covers a range of analyses including data preprocessing, quality control, taxonomic profiling, statistical analysis, and visualization. Below is a detailed guide on how to use the pipeline for each step of the analysis.
 
