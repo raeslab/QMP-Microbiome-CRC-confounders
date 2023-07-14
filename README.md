@@ -23,7 +23,7 @@ After the fastq files have been grouped into sequencing batches, the next step i
 Once you have obtained the ASVs for each sequencing batch, it is important to filter out unclassified and non-bacterial ASVs to focus on the microbial taxa of interest. Follow these steps:
 
 1. Create a script, such as `scripts/ASV_filtering.R`, and load the necessary libraries.
-2. Read the ASV files for each sequencing batch from the `data/processed_data/ASVs_per_batch/` directory.
+2. Read the ASV files for each sequencing batch from the `data/processed_data/per_batch/` directory.
 3. Implement filtering criteria to remove unclassified and non-bacterial ASVs based on taxonomic annotations.
 4. Save the filtered ASVs for each sequencing batch to new output files, preferably in a directory structure such as `data/processed_data/Filtered_ASVs_per_batch/`.
 
@@ -32,7 +32,7 @@ Once you have obtained the ASVs for each sequencing batch, it is important to fi
 After filtering the ASVs, it is essential to perform exploratory and quality control analyses to gain insights into the dataset. Follow these steps:
 
 1. Create a script, such as `scripts/exploratory_analysis.R`, and load the necessary libraries.
-2. Read the filtered ASV files for each sequencing batch from the `data/processed_data/Filtered_ASVs_per_batch/` directory.
+2. Read the filtered ASV files for each sequencing batch from the `data/processed_data/Filtered_ASVs/` directory.
 3. Conduct exploratory analyses such as alpha diversity, beta diversity, and taxonomic composition.
 4. Generate quality control plots and summary statistics to assess the data quality and identify potential issues.
 5. Save the exploratory analysis results and quality control plots in appropriate directories, such as `results/exploratory_analysis/` and `results/quality_control/`.
