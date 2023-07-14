@@ -52,9 +52,6 @@ Identification of microbiota covariates helps in understanding the factors influ
 1. Create a script, such as `scripts/covariate_identification.R`, and load the necessary libraries.
 2. Read the filtered ASV files for each sequencing batch from the `data/processed_data/Filtered_ASVs_per_batch/` directory.
 3. Prepare the necessary metadata, such as sample characteristics, environmental factors, or clinical variables.
-4. Perform appropriate statistical tests or modeling approaches to identify significant associations between covariates and microbial abundance.
-5. Generate visualizations, such as heatmaps or bar plots, to illustrate the identified covariates.
-6. Save the covariate identification results and relevant visualizations in appropriate directories, such as `results/covariate_identification/`.
 
 ## 7. Differential abundance analysis
 
