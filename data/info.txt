@@ -1,0 +1,1 @@
+This directory is intended to contain all the necessary files to run the scripts and store the newly generated files
