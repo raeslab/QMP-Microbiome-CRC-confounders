@@ -179,7 +179,8 @@ ET_names=gsub(paste0("\\b",P,"\\b"), "Prev", ET_names)
 ET_names=gsub(paste0("\\b",B1,"\\b"), "Bact1", ET_names)
 ET_names=gsub(paste0("\\b",B2,"\\b"), "Bact2", ET_names)
 ET_names=gsub(paste0("\\b",R,"\\b"), "Rum", ET_names)
-ET_tab=cbind(ET_tab,ET_names) #final list
+#final list
+ET_tab=cbind(ET_tab,ET_names) 
 head(ET_tab)
 
 
