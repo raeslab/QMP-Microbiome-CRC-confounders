@@ -50,7 +50,7 @@ Quantitative Microbiome Profiling (QMP) at the ASV level enables the quantificat
 Identification of microbiota covariates helps in understanding the factors influencing microbial community composition. Follow these steps to identify microbiota covariates:
 
 1. Create a script, such as `scripts/covariate_identification.R`, and load the necessary libraries.
-2. Read the filtered ASV files for each sequencing batch from the `data/processed_data/` directory.
+2. Read the filtered ASV files from the `data/processed_data/` directory.
 3. Prepare the necessary metadata, such as sample characteristics, clinical variables, etc.
 4. Execute the **covariate_identification.R** script.
 
@@ -59,7 +59,7 @@ Identification of microbiota covariates helps in understanding the factors influ
 To identify taxa showing differential abundance between different conditions or groups, follow these steps:
 
 1. Create a script, such as `scripts/differential_abundance.R`, and load the necessary libraries.
-2. Read the filtered ASV files for each sequencing batch from the `data/processed_data/` directory.
+2. Read the filtered ASV files from the `data/processed_data/` directory.
 3. Execute the **differential_abundance.R** script.
    
 ## 8. Taxa abundance associations
@@ -67,7 +67,7 @@ To identify taxa showing differential abundance between different conditions or 
 Investigating associations between taxa abundance and other variables can provide valuable insights. Follow these steps to analyze taxa abundance associations:
 
 1. Create a script, such as `scripts/abundance_associations.R`, and load the necessary libraries.
-2. Read the filtered ASV files for each sequencing batch from the `data/processed_data/` directory.
+2. Read the filtered ASV files from the `data/processed_data/` directory.
 3. Prepare the necessary metadata, including variables of interest for association analysis.
 4. Execute the **abundance_associations.R** script.
   
@@ -76,7 +76,7 @@ Investigating associations between taxa abundance and other variables can provid
 Linear model analysis helps in exploring relationships between multiple covariates and microbial abundance. Follow these steps to perform linear models analysis:
 
 1. Create a script, such as `scripts/linear_models.R`, and load the necessary libraries.
-2. Read the filtered ASV files for each sequencing batch from the `data/processed_data/Filtered_ASVs_per_batch/` directory.
+2. Read the filtered ASV files from the `data/processed_data/` directory.
 3. Prepare the necessary metadata, including multiple covariates of interest.
 4. Execute the **linear_models.R** script.
 
