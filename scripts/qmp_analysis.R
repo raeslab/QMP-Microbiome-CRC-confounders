@@ -1,7 +1,10 @@
 ###########################################  
-#  LCMP analysis procedure  
 ###########################################  
-# QMP @ ASV ()
+# QMP @ ASV (Amplicon sequence variant)
+# Modified from our previous script for Quantitative Microbial Profiling (QMP) at the genus level, using RDP taxonomy and 16S rRNA copy number (below link)
+https://github.com/raeslab/temporal_variability_microbiome_qmp/blob/master/QMP_optimumevensamplingdepth.R
+###########################################  
+########################################### 
 
 set.seed(531) 
 library(doParallel)
