@@ -40,9 +40,9 @@ After filtering the ASVs, it is essential to perform exploratory and quality con
 
 Quantitative Microbiome Profiling (QMP) at the ASV level enables the quantification of microbial abundance. Follow these steps to perform QMP:
 
-1. Create a script, such as `scripts/qmp_analysis.R`, and load the necessary libraries.
+1. Create a script, such as `scripts/rmp_to_qmq_ASV.R`, and load the necessary libraries.
 2. Read the filtered ASV file from the `data/processed_data/` directory.
-3. Execute the **qmp_analysis.R** script.
+3. Execute the **rmp_to_qmq_ASV.R** script.
 
 
 ## 6. Microbiota covariates identification
