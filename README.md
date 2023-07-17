@@ -16,7 +16,7 @@ After the fastq files have been grouped into sequencing batches, the next step i
 
 1. Install the required dependencies, including R and the dada2 package.
 2. Create a script, such as `scripts/dada2_analysis.R`, and load the necessary libraries.
-3. Execute the dada2_analysis.R script.
+3. Execute the **dada2_analysis.R** script.
 
 ## 3. Filtering unclassified and non-bacterial ASVs
 
@@ -25,7 +25,7 @@ Once you have obtained the ASVs for each sequencing batch, it is important to fi
 1. Create a script, such as `scripts/ASV_filtering.R`, and load the necessary libraries.
 2. Read the concatenated ASV file from the `data/processed_data/` directory.
 3. Implement filtering criteria to remove unclassified and non-bacterial ASVs based on taxonomic annotations.
-4. Execute the ASV_filtering.R script.
+4. Execute the **ASV_filtering.R** script.
    
 
 ## 4. Exploratory and quality control analysis
@@ -34,7 +34,7 @@ After filtering the ASVs, it is essential to perform exploratory and quality con
 
 1. Create a script, such as `scripts/exploratory_analysis.R`, and load the necessary libraries.
 2. Read the filtered ASV file from the `data/processed_data/` directory.
-3. Execute the exploratory_analysis.R script.
+3. Execute the **exploratory_analysis.R** script.
    
 ## 5. Quantitative Microbiome Profiling (QMP) at ASV level
 
@@ -42,7 +42,7 @@ Quantitative Microbiome Profiling (QMP) at the ASV level enables the quantificat
 
 1. Create a script, such as `scripts/qmp_analysis.R`, and load the necessary libraries.
 2. Read the filtered ASV file from the `data/processed_data/` directory.
-3. Execute the qmp_analysis.R script.
+3. Execute the **qmp_analysis.R** script.
 
 
 ## 6. Microbiota covariates identification
@@ -52,7 +52,7 @@ Identification of microbiota covariates helps in understanding the factors influ
 1. Create a script, such as `scripts/covariate_identification.R`, and load the necessary libraries.
 2. Read the filtered ASV files for each sequencing batch from the `data/processed_data/` directory.
 3. Prepare the necessary metadata, such as sample characteristics, clinical variables, etc.
-4. Execute the covariate_identification.R script.
+4. Execute the **covariate_identification.R** script.
 
 ## 7. Differential abundance analysis
 
@@ -60,7 +60,7 @@ To identify taxa showing differential abundance between different conditions or 
 
 1. Create a script, such as `scripts/differential_abundance.R`, and load the necessary libraries.
 2. Read the filtered ASV files for each sequencing batch from the `data/processed_data/` directory.
-3. Execute the differential_abundance.R script.
+3. Execute the **differential_abundance.R** script.
    
 ## 8. Taxa abundance associations
 
@@ -69,7 +69,7 @@ Investigating associations between taxa abundance and other variables can provid
 1. Create a script, such as `scripts/abundance_associations.R`, and load the necessary libraries.
 2. Read the filtered ASV files for each sequencing batch from the `data/processed_data/` directory.
 3. Prepare the necessary metadata, including variables of interest for association analysis.
-4. Execute the abundance_associations.R script.
+4. Execute the **abundance_associations.R** script.
   
 ## 9. Linear model analysis
 
@@ -78,7 +78,7 @@ Linear model analysis helps in exploring relationships between multiple covariat
 1. Create a script, such as `scripts/linear_models.R`, and load the necessary libraries.
 2. Read the filtered ASV files for each sequencing batch from the `data/processed_data/Filtered_ASVs_per_batch/` directory.
 3. Prepare the necessary metadata, including multiple covariates of interest.
-4. Execute the linear_models.R script.
+4. Execute the **linear_models.R** script.
 
 ## 10. Enterotyping
 
@@ -86,6 +86,6 @@ Enterotyping is a method to categorize individuals based on their gut microbiota
 
 1. Create a script, such as `scripts/enterotyping.R`, and load the necessary libraries.
 2. Read the filtered ASV files for each sequencing batch from the `data/processed_data/Filtered_ASVs_per_batch/` directory.
-3. Execute the enterotyping.R script.
+3. Execute the **enterotyping.R** script.
 
 
