@@ -85,7 +85,7 @@ Linear model analysis helps in exploring relationships between multiple covariat
 Enterotyping is a method to categorize individuals based on their gut microbiota composition. Follow these steps to perform enterotyping analysis:
 
 1. Create a script, such as `scripts/enterotyping.R`, and load the necessary libraries.
-2. Read the filtered ASV files for each sequencing batch from the `data/processed_data/Filtered_ASVs_per_batch/` directory.
+2. Read the filtered ASV files from the `data/processed_data/` directory.
 3. Execute the **enterotyping.R** script.
 
 
