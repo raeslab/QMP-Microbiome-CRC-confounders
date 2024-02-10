@@ -83,4 +83,6 @@ saveRDS(seqtab_all_no_chimeras, "seqtab_all_no_chimeras.rds")
 
 ## Assign taxonomy using the SILVA database (replace with your own reference file)
 seqtab_all_no_chimeras_tax_SLV138.1 <- assignTaxonomy(seqtab_all_no_chimeras, "silva_nr99_v138.1_wSpecies_train_set.fa.gz", multithread = TRUE)
+seqtab_all_no_chimeras_tax_SLV138.1sp <- assignSpecies(seqtab_all_no_chimeras, "silva_species_assignment_v138.1.fa.gz")
+seqtab_all_no_chimeras_tax_SLV138.1[,7] <- seqtab_all_no_chimeras_tax_SLV138.1sp[,7]
 saveRDS(seqtab_all_no_chimeras_tax_SLV138.1, "seqtab_all_no_chimeras_tax_SLV138.1.rds")
